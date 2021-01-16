@@ -1,0 +1,74 @@
+:root {
+    /* colores */
+    --black: #000000ff;
+    --middle-blue: #92dce5ff;
+    --lavender-blush: #eee5e9ff;
+    --gray-web: #7c7c7cff;
+    --cinnabar: #d64933ff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cinnabar);
+    color: white;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: .8rem;
+    text-align: center;
+}
+.web {
+    height: 20rem;
+    width: 40rem;
+    border: .3rem solid white;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.subtitulo {
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    background-color: transparent;
+}
+.modificadores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    grid-gap: 1.2rem;
+}
+.mdColor, .textChange {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input.select {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .3rem;
+    border: none;
+}
+input.txtSelect {
+    width: 10rem;
+    height: 2rem;
+    border-radius: .3rem;
+    border: none;
+    text-align: center;
+}
