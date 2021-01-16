@@ -13,4 +13,4 @@ Small application where you can change the background of the box, add a text, ch
 
 ---
 
-# [Pruebalo aqui](https://gac982.github.io/formulario-sass/ "demo")
+# [Pruebalo aqui](https://gac982.github.io/change-color-app/ "demo")
